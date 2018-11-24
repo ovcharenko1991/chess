@@ -1,0 +1,28 @@
+.size {
+	width: 200px;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+p {
+	display: inline-block;
+	margin: 0;
+}
+input {
+	display: inline-block;
+	width: 20px;
+}
+.color {
+	width: 200px;
+	display: inline-block;
+	padding-bottom: 20px;
+}
+.color input {
+	width: 69%;
+	transform: translateY(5px);
+}
+.color p {
+	margin: 0 0 10px 5px;
+}
+#colorBtn {
+	transform: translate(20px, -37px);
+}

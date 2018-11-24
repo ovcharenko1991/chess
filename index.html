@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chess</title>
+        <link rel='stylesheet' type='text/css' href='style.css'/>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="size">
+			<p>Size: </p>
+			<input type="input" class="inputSize" value="12">
+			<button id="down"><</button>
+			<button id="rise">></button>
+		</div>
+
+		<div class="color">
+			<div class="color1">
+				<p>Color 1</p>
+				<input type="range" class="colorHEX1" min="000" max="999" value="555">
+			</div>
+
+			<div class="color2">
+				<p>Color 2</p>
+				<input type="range" class="colorHEX2" min="000" max="999" value="000">
+			</div>
+
+			<div class="color3">
+				<p>Color 3</p>
+				<input type="range" class="colorHEX3" min="000" max="999" value="999">
+			</div>
+		</div>
+
+		<button id="colorBtn">OK</button>
+		
+		
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
